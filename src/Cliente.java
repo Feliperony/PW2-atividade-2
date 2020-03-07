@@ -4,6 +4,7 @@ import java.util.InputMismatchException;
 
 public class Cliente {
 	
+	
 	public String Nome;
 	public String Email;
 	public int    Telefone; 
@@ -67,6 +68,11 @@ public class Cliente {
 		       return(CPF.substring(0, 3) + "." + CPF.substring(3, 6) + "." +
 		       CPF.substring(6, 9) + "-" + CPF.substring(9, 11));
 		    }
+	
+	public boolean ehMaiorIdade() 
+	{
+		
+	}
 
 
 	
